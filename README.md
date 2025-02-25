@@ -1,7 +1,7 @@
 The world generation module has multiple uses as it is very editable with a very simple API:
 
 Example API:
-
+```
 local WorldGenerationModule = require(PathToModule)
 local RunService = game:GetService("RunService")
 
@@ -26,3 +26,4 @@ WorldGenerationModules:Settings(FloorTiles, nil, Trees) -- The module currently 
 RunService.RenderStepped:Connect(function()
   WorldGenerationModule:LoadChunks(HumanoidRootPart.Position.X, HumanoidRootPart.Position.Z)
 end)
+```
