@@ -30,6 +30,7 @@ local LastProcessedTime = 0
 local ChunksToProcess = {} -- Queue for chunks to process
 
 -- Public functions
+
 -- Loads the chunks around the client
 function WorldGenerator:LoadChunks(X, Z)
 	-- Set random seed at the beginning of loading to avoid deterministic patterns
