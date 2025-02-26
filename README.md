@@ -14,7 +14,7 @@ local HumanoidRootPart = Character:FindFirstChild("HumanoidRootPart")
 local FloorTiles = {
   Plains = script.Plains;
   Block = script.Block;
-	Step = script.Step;
+  Step = script.Step;
 }
 
 local Trees = {
